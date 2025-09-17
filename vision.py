@@ -1,3 +1,4 @@
+
 from dotenv import load_dotenv
 
 load_dotenv()  # take environment variables from .env.
@@ -46,6 +47,9 @@ if submit:
     
     response=get_gemini_response(input,image)
     st.subheader("The Response is")
+
+    st.write(response)
+
 # Q&A Chatbot
 #from langchain.llms import OpenAI
 

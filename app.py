@@ -48,6 +48,8 @@ if submit:
     
     response=get_gemini_response(input)
     st.subheader("The Response is")
+    st.write(response)
+
 # Q&A Chatbot
 #from langchain.llms import OpenAI
 
