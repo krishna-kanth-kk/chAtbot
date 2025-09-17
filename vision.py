@@ -1,5 +1,3 @@
-# Q&A Chatbot
-#from langchain.llms import OpenAI
 
 from dotenv import load_dotenv
 
@@ -49,7 +47,9 @@ if submit:
     
     response=get_gemini_response(input,image)
     st.subheader("The Response is")
+
     st.write(response)
+
 # Q&A Chatbot
 #from langchain.llms import OpenAI
 
